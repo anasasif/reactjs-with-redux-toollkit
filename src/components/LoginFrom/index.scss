@@ -1,0 +1,50 @@
+.Login {
+
+  .form-control {
+    background: #fbfbfb !important;
+    height: 55px !important;
+    border: 1px solid #eee !important;
+  }
+  .storeCard {
+    padding: 30px;
+    background-color: #fff;
+  }
+  .storeCardB {
+    padding: 20px;
+    background-color: #fff;
+  }
+  .storeCardH {
+    padding: 0px;
+    background-color: #fff;
+  }
+  .login_Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .Button {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .form-group {
+    text-align: left;
+    padding-top: 15px;
+    label{
+      padding-bottom: 5px;
+    }
+  }
+  .errorHeadng {
+    text-align: center;
+    color: #bb2525;
+  }
+  .textMsgV {
+    text-align: center;
+  }
+  .w100{
+    width: 100%;
+  }
+  .regsiter-button{
+    padding-top: 20px;
+  }
+}

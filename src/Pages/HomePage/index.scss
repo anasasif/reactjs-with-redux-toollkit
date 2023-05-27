@@ -1,0 +1,436 @@
+.dashboardStyle {
+  .dashboard-card {
+    background: #eee;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  .dashboard-card2 {
+    background: #fcfcfc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  .productMaincard {
+    padding: 15px !important;
+  }
+  .json-file-tab {
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .productSubcard {
+    border: 1px solid #eff1f3;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .productSubcard:hover {
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+      0 0 0 1px rgba(10, 10, 10, 0.02) !important;
+  }
+
+  .displayFlex {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .storeCard {
+    padding: 30px;
+    background-color: #fff;
+  }
+  .storeCardB {
+    padding: 10px 25px;
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+  }
+  .storeCardH {
+    padding: 0px;
+    background-color: #fff;
+  }
+  .filDisF {
+    display: flex;
+    align-items: center;
+  }
+  .dFlexL {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .sendStatus {
+    background: #80c788;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 1px 8px 3px 8px;
+  }
+
+  .cardImage {
+    margin-right: 5px;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 10%;
+    padding-right: 20px;
+  }
+
+  .cardImages {
+    height: 60px;
+    object-fit: contain;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 2;
+  }
+
+  .cardTitle {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: 5px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #2e2f31;
+    line-height: 1.2;
+    width: 90%;
+  }
+
+  .manageProducts {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background: #f3f2ee;
+  }
+
+  .manageButtons {
+    margin-right: 10px;
+  }
+
+  .manageButtonsmrgn {
+    margin-right: 0px;
+    border-right: 1px solid #c3bfbf;
+    color: #444 !important;
+    padding: 0px 10px 0px 10px;
+    font-size: 12px;
+  }
+
+  .spinLoading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5eb2d9;
+  }
+  @media only screen and (min-width: 0px) and (max-width: 992px) {
+    .spinLoading {
+      padding-left: 0px;
+    }
+  }
+
+  .updateButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .infoCard {
+    display: flex;
+    align-items: center;
+  }
+
+  .updateIcon {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+
+  .fsize12 {
+    display: flex;
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  .pagiStyle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .subPagi {
+    margin-left: 1px;
+  }
+  .btn-group-sm > .btn {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+  }
+  .card-header {
+    text-align: right;
+    padding: 0;
+    border: none;
+  }
+
+  .card {
+    border: none;
+    border-bottom: 1px solid #e0e0e0ee;
+  }
+
+  .det_Sty {
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+  }
+  .detialsView {
+    cursor: pointer;
+    padding: 10px;
+    background: #fff0;
+  }
+  .pageSz {
+    margin-right: 20px;
+  }
+
+  .fileUpload {
+    padding: 7px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    height: 40px;
+  }
+  .FormGroupmrgn {
+    margin: 0;
+  }
+  .successHeadng {
+    color: #28a745;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .errorHeadng {
+    color: #dc3545;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .uploadSpin {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .viewMr {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 12px;
+    z-index: 111;
+  }
+  .upldInv {
+    text-align: left;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #17a2b8;
+  }
+  .newFlex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+  }
+  .lastBorder {
+    border-right: none !important;
+  }
+  .subPagi Button {
+    border: none;
+    border-right: 1px solid #eee;
+    background-color: #fff !important;
+    color: #444 !important;
+    border-radius: 0 !important;
+  }
+  .subPagi Button:hover {
+    background-color: #eee !important;
+    color: #444 !important;
+  }
+  .subPagi Button:focus {
+    outline: none !important;
+  }
+  .newFlexPagi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .txtcntr {
+    text-align: left;
+    margin-top: 10px;
+  }
+  .upldInv {
+    justify-content: space-between;
+  }
+  .BrdrRound {
+    border: 1px solid #e9e9e9 !important;
+    position: relative;
+  }
+  @media only screen and (min-width: 0px) and (max-width: 992px) {
+    .cardImage {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .displayFlex {
+      display: block;
+    }
+    .cardTitle {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .manageProducts {
+      overflow: auto;
+      white-space: nowrap;
+    }
+    .stchLeft {
+      padding-right: 10px;
+    }
+    .hdMob {
+      display: none;
+    }
+    .hdDask {
+      display: block !important;
+    }
+    .pagiStyle {
+      overflow: auto;
+      white-space: nowrap;
+    }
+    .mbSzAdd {
+      text-align: left;
+      display: block;
+    }
+  }
+  .manageProducts {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .btnUploadIn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .table {
+    text-align: left;
+  }
+  .listHeadng {
+    margin: 0;
+    text-align: center;
+  }
+  .actionBDiv {
+    display: flex;
+    align-items: center;
+  }
+  .actionButton {
+    margin-right: 10px;
+  }
+  .actionButtonIcon {
+    font-size: 14px;
+  }
+  .brdrLdng {
+    border-top: 6.5px solid rgb(248, 248, 248);
+  }
+  .mrgnRight {
+    margin-right: 10px;
+  }
+  .pdngStyle {
+    font-size: 13px;
+  }
+  .crtCamp {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .crtCampS {
+    display: flex;
+    align-items: center;
+  }
+  .afterScheduled {
+    display: flex;
+    align-items: center;
+  }
+  .shcldLft {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .campSpace {
+    margin-top: 7px;
+  }
+}
+
+.dlrdflInput {
+  height: 50px !important;
+}
+.dlrdflUpload {
+  height: 50px !important;
+  padding: 9px !important;
+}
+.fileUploadmsg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new_Modal {
+  .modal-dialog {
+    max-width: 40% !important;
+  }
+  .modal-body {
+    padding: 1rem !important;
+  }
+}
+
+.card-dashboard-seven {
+  margin-top: -20px;
+}
+
+.db_welcome-msg {
+  padding: 1.25rem 1.25rem 0rem 1.25rem;
+}
+.seven-content-db {
+  font-size: 14px;
+  border-left: 1px dotted #cdd4e0;
+}
+.seven-content-db:first-child {
+  border-left: none;
+}
+.seven-content-db label {
+  margin: 0;
+  font-weight: 700;
+}
+.seven-content-db h2 {
+  font-weight: 700;
+}
+.card-body-db {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
